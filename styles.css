@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/qr.jpg"); /* Use the relative path to the image from the HTML file location */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the body height to the full viewport height */
+}
+.container {
+  position: absolute; /* Make the container absolute */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the container */
+  max-width: 800px;
+  padding: 20px;
+  background-image: url("https://storage.googleapis.com/pai-images/a1480aa309bf429ea4efc16cb410bd1a.jpeg");/* Pink background color for the container */
+  border-radius: 10px; /* Rounded corners for the container */
+  box-shadow: 10px 10px 10px rgba(20, 7, 7, 0.1); /* Box shadow for a subtle effect */
+}
+
+.left-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#qrcode {
+  margin-top: 20px;
+}
+
+#downloadButton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #65289e;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#downloadButton:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}

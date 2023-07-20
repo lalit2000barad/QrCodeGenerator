@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-container">
+      <h1>QR Code Generator</h1>
+      <textarea id="inputField" placeholder="Enter your message or URL"></textarea>
+      <button id="generateButton">Generate QR Code</button>
+    </div>
+    <div class="right-container">
+      <div id="qrcode"></div>
+      <a id="downloadButton" download="qrcode.png" disabled>Download QR Code</a>
+    </div>
+  </div>
+  
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
