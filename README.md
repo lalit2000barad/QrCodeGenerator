@@ -1,3 +1,3 @@
 # QrCodeGenerator
 
-Project deployed on :   qrcodegeneratorbylalit.netlify.app
+Project deployed on :   https://qrcodegeneratorbylalit.netlify.app/
